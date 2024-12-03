@@ -26,7 +26,7 @@ password: junesworld
 Create a schema in your newly created database. Name it schema1. Don't change any of its other settings.
 6. In the schema, insert all of the SQL code found in our database's proposal doc. At this point, you will be ready to run the code.
 # Setup (pandas)
-**This setup process excludes the MYSQL Workbench altogether, as well as teh pymysql module installation.**
+**This setup process excludes the MYSQL Workbench altogether, as well as the pymysql module installation.**
 
 **Before touching any of the applications you just installed, first download the CSVs and .py files included in the repository. This will ease the data-import process for setting up via pandas.**
 
