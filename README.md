@@ -17,6 +17,7 @@ pip install pymysql
 ```
 Keep this terminal window open.
 **To check if your installation was successful, use `pip list | grep MODULE_NAME`. This will return any matches along with their versions.**
+
 4. Open up MYSQL Workbench and create a new database. Use these specific settings:
 ```
 host: 127.0.0.1
@@ -24,6 +25,7 @@ user: root
 password: junesworld
 ```
 Create a schema in your newly created database. Name it schema1. Don't change any of its other settings.
+
 5. In the schema, insert all of the SQL code found in our database's proposal doc. At this point, you will be ready to run the code.
 # Setup (pandas)
 **This setup process excludes the MYSQL Workbench altogether, as well as the pymysql module installation.**
@@ -41,7 +43,7 @@ pip install pypokedex
 Keep this terminal window open.
 **To check if your installation was successful, use `pip list | grep MODULE_NAME`. This will return any matches along with their versions.**
 # Running the Database
-Running the database is simple no matter how you setup the database.
+Running the database is simple, no matter how you set up the database.
 ## If You Setup via MYSQL
 1. From the Anaconda environment terminal, run the following command: `streamlit run testing.py`. This will show the user login screen. For a draft screen, run `streamlit run testing2.py`.
 2. You will be able to interact with the screens and navigate the database as you'd like.
