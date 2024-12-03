@@ -6,9 +6,9 @@ There are a few things you will need to install before running the database.
 2. Python & Anaconda. Again, please download the latest versions of both from their websites. Python's can be found [here](https://www.python.org/downloads/) and Anaconda's can be found [here](https://www.anaconda.com/download).
 3. Python dependencies; specifically Streamlit, pandas, pypokedex, and pymysql. You will be able to install these via your terminal/command prompt. Refer to [the setup instructions](setup-mysql) for quick installation.
 # Setup (MYSQL)
-2. Now, you will want to create an environment in Anaconda. Please do this via the Anaconda Navigator; name it whatever you'd like, and you do not need to change any settings with this newly-made environment.
-3. Via Anaconda Navigator, open the environment's terminal and **activate** the environment with `conda activate ENV_NAME`
-4. With the environment activated, use `pip` to install the required python dependencies:
+1. Start by creating an environment. Please do this via the Anaconda Navigator; name it whatever you'd like, and you do not need to change any settings with this newly-made environment.
+2. Via Anaconda Navigator, open the environment's terminal and **activate** the environment with `conda activate ENV_NAME`
+3. With the environment activated, use `pip` to install the required python dependencies:
 ```
 pip install streamlit
 pip install pandas
@@ -17,14 +17,14 @@ pip install pymysql
 ```
 Keep this terminal window open.
 **To check if your installation was successful, use `pip list | grep MODULE_NAME`. This will return any matches along with their versions.**
-5. Open up MYSQL Workbench and create a new database. Use these specific settings:
+4. Open up MYSQL Workbench and create a new database. Use these specific settings:
 ```
 host: 127.0.0.1
 user: root
 password: junesworld
 ```
 Create a schema in your newly created database. Name it schema1. Don't change any of its other settings.
-6. In the schema, insert all of the SQL code found in our database's proposal doc. At this point, you will be ready to run the code.
+5. In the schema, insert all of the SQL code found in our database's proposal doc. At this point, you will be ready to run the code.
 # Setup (pandas)
 **This setup process excludes the MYSQL Workbench altogether, as well as the pymysql module installation.**
 
