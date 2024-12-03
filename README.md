@@ -2,7 +2,7 @@
   A database created with the collaborative efforts from Jhun Baclaan, Rhyanne Zyrelle-Javier, and Matthew Holck. This database is a project for our CSCI-3301 class and is meant to be a demo of a database that could replace the tedious software and websites that are often used by league hosters.
 # Installation
 There are a few things you will need to install before running the database.
-1. MYSQL Workbench and MYSQL Community Server. Please download the latest version for your OS from [Oracle's official website](https://dev.mysql.com/downloads/workbench/). MYSQL Community Server can be downloaded from [here](https://dev.mysql.com/downloads/mysql/8.0.html).
+1. MYSQL Workbench and MYSQL Community Server. **Install these if you plan to use MYSQL to run the database.** Please download the latest version for your OS from [Oracle's official website](https://dev.mysql.com/downloads/workbench/). MYSQL Community Server can be downloaded from [here](https://dev.mysql.com/downloads/mysql/8.0.html).
 2. Python & Anaconda. Again, please download the latest versions of both from their websites. Python's can be found [here](https://www.python.org/downloads/) and Anaconda's can be found [here](https://www.anaconda.com/download).
 3. Python dependencies; specifically Streamlit, pandas, pypokedex, and pymysql. You will be able to install these via your terminal/command prompt. Refer to [the setup instructions](README.md#setup-mysql) for quick installation.**If you are setting up via pandas, refer to [this set of instructions](README.md#setup-pandas)**
 # Setup (MYSQL)
