@@ -4,7 +4,7 @@
 There are a few things you will need to install before running the database.
 1. MYSQL Workbench and MYSQL Community Server. Please download the latest version for your OS from [Oracle's official website](https://dev.mysql.com/downloads/workbench/). MYSQL Community Server can be downloaded from [here](https://dev.mysql.com/downloads/mysql/8.0.html).
 2. Python & Anaconda. Again, please download the latest versions of both from their websites. Python's can be found [here](https://www.python.org/downloads/) and Anaconda's can be found [here](https://www.anaconda.com/download).
-3. Python dependencies; specifically Streamlit, pandas, pypokedex, and pymysql. You will be able to install these via your terminal/command prompt. Refer to [the setup instructions](setup-mysql) for quick installation.
+3. Python dependencies; specifically Streamlit, pandas, pypokedex, and pymysql. You will be able to install these via your terminal/command prompt. Refer to [the setup instructions](readme.md#setup-mysql) for quick installation.**If you are setting up via pandas, refer to [this set of instructions](readme.md#setup-pandas)**
 # Setup (MYSQL)
 1. Start by creating an environment. Please do this via the Anaconda Navigator; name it whatever you'd like, and you do not need to change any settings with this newly-made environment.
 2. Via Anaconda Navigator, open the environment's terminal and **activate** the environment with `conda activate ENV_NAME`
