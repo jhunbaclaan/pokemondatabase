@@ -44,10 +44,10 @@ pip install pypokedex
 Keep this terminal window open.
 **To check if your installation was successful, use `pip list | grep MODULE_NAME`. This will return any matches along with their versions.**
 # Running the Database
-Running the database is simple, no matter how you set up the database.
+Running the database is simple, no matter how you set up the database. However, please make sure that when running the database, your directory is set to the location of the file that is supposed to be ran. For example, if you are running `league_portal`, make sure your directory is `../database_mysqlpkg`. 
 ## If You Setup via MYSQL
-1. From the Anaconda environment terminal, run the following command: `streamlit run testing.py`. This will show the user login screen. For a draft screen, run `streamlit run testing2.py`.
+1. From the Anaconda environment terminal, run the following command: `streamlit run league_portal.py`. This will show the user login screen.
 2. You will be able to interact with the screens and navigate the database as you'd like.
-## If You Setup via MYSQL
-1. From the Anaconda environment terminal, run the following command: `streamlit run test2.py`. This will show the user login screen.
+## If You Setup via pandas
+1. From the Anaconda environment terminal, run the following command: `streamlit run testing.py`. This will show the user login screen. For a draft screen, run `streamlit run testing2.py`.
 2. You will be able to interact with the screens and navigate the database as you'd like.
